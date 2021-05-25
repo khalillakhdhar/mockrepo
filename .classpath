@@ -34,5 +34,26 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khali/.m2/repository/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar" sourcepath="C:/Users/khali/.m2/repository/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="org.mockito"/>
+			<attribute name="maven.artifactId" value="mockito-core"/>
+			<attribute name="maven.version" value="2.23.4"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khali/.m2/repository/org/mockito/mockito-core/3.6.28/mockito-core-3.6.28.jar" sourcepath="C:/Users/khali/.m2/repository/org/mockito/mockito-core/3.6.28/mockito-core-3.6.28-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="org.mockito"/>
+			<attribute name="maven.artifactId" value="mockito-core"/>
+			<attribute name="maven.version" value="3.6.28"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Mockito/mockito-all-2.0.2-beta.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
