@@ -48,6 +48,8 @@ public class RecordService
 
 	public boolean save(String fileName) 
     {
+		if(fileName==("temp.txt"))
+		{
         database.save(fileName);
         System.out.println("Saved in database in Main class");
          
@@ -55,5 +57,14 @@ public class RecordService
         System.out.println("Saved in network in Main class");
          
         return true;
+		}
+		else
+		{
+	        System.out.println("cannot in database in Main class");
+	        System.out.println("cannot in network in Main class");
+	        return false;
+
+		}
+			
     }
 }
